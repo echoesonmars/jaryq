@@ -60,7 +60,6 @@ export function ProductModal({ productId, onClose }: ProductModalProps) {
       id: product.id,
       name: productName,
       price: product.price,
-      currency: product.currency,
       image: product.images[0],
       size: selectedSize || product.sizes[0],
       color: selectedColor || product.colors[0],

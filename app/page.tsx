@@ -1,5 +1,6 @@
 "use client"
 
+import { MorphingText } from "@/components/ui/morphing-text"
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
@@ -26,8 +27,15 @@ export default function HomePage() {
     return () => window.removeEventListener("localechange", handleLocaleChange)
   }, [])
 
-  // Get first 3 products for featured section
-  const featuredProducts = productsData.products.slice(0, 3)
+  // Get first 4 products for featured section
+  const featuredProducts = productsData.products.slice(0, 4)
+
+  const texts = [
+  "Make",
+  "Jaryq",
+  "Not",
+  "War"
+]
 
   return (
     <div className="min-h-screen psychedelic-bg">
@@ -44,18 +52,23 @@ export default function HomePage() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-burnt-orange/40 via-transparent to-deep-brown/60" />
 
-        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-          <h1 className="font-display text-7xl md:text-8xl text-white mb-4 drop-shadow-lg text-balance animate-fade-in-up leading-tight tracking-tight">
+        <div className="relative z-10 text-center px-4 max-w-2xl mx-auto">
+      
+          <MorphingText
+            texts={texts}
+            className="mb-8 animate-fade-in-up font-display text-9xl text-white leading-tight tracking-tight"
+          />
+          {/* <h1 className="font-display text-7xl md:text-8xl text-white mb-6 drop-shadow-lg text-balance animate-fade-in-up leading-tight tracking-tight">
             {t.home.hero.title}
-          </h1>
-          <p className="font-secondary text-md md:text-xl text-cream/95 mb-6 max-w-2xl mx-auto text-pretty leading-normal">
+          </h1> */}
+          <p className="font-secondary text-xl text-cream/95 mb-6 max-w-2xl mx-auto text-pretty leading-normal">
             {t.home.hero.subtitle}
           </p>
-          <div className="flex sm:flex-row gap-3 justify-center">
+          <div className="flex sm:flex-row gap-2 justify-center">
             <Button
               asChild
               size="lg"
-              className="border-1 border-white bg-burnt-orange hover:bg-burnt-orange/90 text-cream font-secondary font-medium text-base px-5 py-5 rounded-sm shadow-lg hover:shadow-xl transition-all hover:scale-105"
+              className="border-1 border-white bg-burnt-orange hover:bg-burnt-orange/90 text-cream font-secondary font-medium text-sm px-2 py-1 rounded-sm shadow-lg hover:shadow-xl transition-all hover:scale-105"
             >
               <Link href="/stock">{t.home.hero.cta}</Link>
             </Button>
@@ -63,7 +76,7 @@ export default function HomePage() {
               asChild
               size="lg"
               variant="outline"
-              className="bg-cream/90 hover:bg-cream text-deep-brown border-2 border-deep-brown font-secondary font-meduim text-base px-5 py-5 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-105"
+              className="bg-cream/90 hover:bg-cream text-deep-brown border-2 border-deep-brown font-secondary font-meduim text-sm px-2 py-1 rounded-sm shadow-lg hover:shadow-xl transition-all hover:scale-105"
             >
               <Link href="/about">Our Story</Link>
             </Button>
@@ -82,8 +95,8 @@ export default function HomePage() {
           </p>
         </div>
 
-        {/* Updated grid to show 2 columns on mobile, 3 columns on desktop */}
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4">
+        {/* Grid: 2 columns on mobile, 4 columns on large screens */}
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4">
           {featuredProducts.map((product) => (
             <ProductCard
               key={product.id}
