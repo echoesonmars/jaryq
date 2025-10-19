@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "Home",
+    "stock": "Stock",
+    "about": "About",
+    "search": "Search",
+    "cart": "Shopping cart",
+    "menu": "Toggle menu"
+  },
+  "home": {
+    "hero": {
+      "title": "Make Jaryq, Not War",
+      "subtitle": "Groovy threads from the heart of Kazakhstan",
+      "cta": "Shop the Collection"
+    },
+    "featured": {
+      "title": "Featured Pieces",
+      "subtitle": "Handpicked vibes for the modern nomad"
+    }
+  },
+  "stock": {
+    "title": "The Full Stock",
+    "subtitle": "Every piece tells a story",
+    "filter": {
+      "category": "Category",
+      "all": "All",
+      "tshirts": "T-Shirts",
+      "bottoms": "Bottoms",
+      "accessories": "Accessories"
+    },
+    "sort": {
+      "label": "Sort by",
+      "featured": "Featured",
+      "priceLow": "Price: Low to High",
+      "priceHigh": "Price: High to Low",
+      "name": "Name: A to Z"
+    },
+    "noResults": "No products found",
+    "searchPlaceholder": "Search for groovy threads...",
+    "resultsCount": "Showing {count} groovy {item}",
+    "resultsCountPlural": "items",
+    "resultsCountSingular": "item",
+    "tryAdjusting": "Try adjusting your filters or search query"
+  },
+  "about": {
+    "hero": {
+      "title": "Peace, Love & Jaryq",
+      "subtitle": "Born from the steppes, inspired by the '60s"
+    },
+    "story": {
+      "title": "Our Story",
+      "content": "Jaryq fuses the free-spirited energy of 1960s counterculture with the rich heritage of Kazakhstan. We believe fashion should be a statement of peace, creativity, and cultural pride."
+    },
+    "values": {
+      "title": "Our Values",
+      "sustainable": {
+        "title": "Sustainable",
+        "description": "Eco-friendly materials and ethical production"
+      },
+      "cultural": {
+        "title": "Cultural",
+        "description": "Celebrating Kazakh heritage in every design"
+      },
+      "creative": {
+        "title": "Creative",
+        "description": "Bold, psychedelic, and unapologetically unique"
+      }
+    }
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "size": "Size",
+    "color": "Color",
+    "sku": "SKU",
+    "description": "Description",
+    "relatedProducts": "You Might Also Dig"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "subtotal": "Subtotal",
+    "checkout": "Checkout",
+    "remove": "Remove",
+    "quantity": "Quantity"
+  }
+}

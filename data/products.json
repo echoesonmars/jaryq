@@ -1,0 +1,190 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Sunshine of Your Love",
+      "nameRu": "Sunshine of Your Love",
+      "price": 12900,
+      "currency": "KZT",
+      "tagline": "Far out vibes only",
+      "taglineRu": "Только крутые вибрации",
+      "description": "Hand-dyed corduroy jacket with traditional Kazakh embroidery patterns reimagined in psychedelic colors. Each piece is unique.",
+      "descriptionRu": "Вельветовая куртка ручной окраски с традиционными казахскими узорами в психоделических цветах. Каждая вещь уникальна.",
+      "category": "tops",
+      "images": [
+        "/clothes/sunshine1.png",
+        "/clothes/sunshine2.png",
+        "/clothes/sunshine3.png"
+      ],
+      "colors": ["burnt-orange", "mustard", "olive"],
+      "sizes": ["S", "M", "L", "XL"],
+      "materials": "100% organic cotton corduroy, natural dyes",
+      "inStock": true
+    },
+    {
+      "id": "2",
+      "name": "Light My Fire",
+      "nameRu": "Брюки Степной Мечтатель",
+      "price": 8900,
+      "currency": "KZT",
+      "tagline": "Flow like the wind",
+      "taglineRu": "Течь как ветер",
+      "description": "Wide-leg linen pants inspired by traditional Kazakh nomadic wear. Perfect for festivals and everyday grooviness.",
+      "descriptionRu": "Широкие льняные брюки, вдохновленные традиционной казахской кочевой одеждой. Идеально для фестивалей и повседневного стиля.",
+      "category": "bottoms",
+      "images": [
+        "/clothes/lightmyfire1.png",
+        "/clothes/lightmyfire2.png",
+        "/clothes/lightmyfire3.png"
+      ],
+      "colors": ["cream", "olive", "turquoise"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "materials": "100% organic linen",
+      "inStock": true
+    },
+    {
+      "id": "3",
+      "name": "Jaryq Angel",
+      "nameRu": "Футболка Мир и Узоры",
+      "price": 4500,
+      "currency": "KZT",
+      "tagline": "Make Jaryq, not war",
+      "taglineRu": "Делай жарық, а не войну",
+      "description": "Screen-printed organic cotton tee featuring original artwork blending 60s peace symbols with Kazakh ornamental motifs.",
+      "descriptionRu": "Футболка из органического хлопка с шелкографией, сочетающей символы мира 60-х с казахскими орнаментами.",
+      "category": "tops",
+      "images": [
+        "/clothes/jaryqangel1.png",
+        "/clothes/jaryqangel2.png",
+        "/clothes/jaryqangel3.png"
+      ],
+      "colors": ["cream", "mustard", "turquoise"],
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "materials": "100% organic cotton",
+      "inStock": true
+    },
+    {
+      "id": "4",
+      "name": "Make Jaryq, Not War",
+      "nameRu": "Жилет Душа Кочевника",
+      "price": 9900,
+      "currency": "KZT",
+      "tagline": "Wander freely",
+      "taglineRu": "Странствуй свободно",
+      "description": "Handwoven wool vest with fringe details. Inspired by traditional Kazakh chapan coats with a groovy twist.",
+      "descriptionRu": "Шерстяной жилет ручной работы с бахромой. Вдохновлен традиционными казахскими чапанами с современным акцентом.",
+      "category": "tops",
+      "images": [
+        "/clothes/makejaryq1.png",
+        "/clothes/makejaryq2.png",
+        "/clothes/makejaryq3.png"
+      ],
+      "colors": ["olive", "burnt-orange", "deep-brown"],
+      "sizes": ["S", "M", "L", "XL"],
+      "materials": "100% wool, handwoven",
+      "inStock": true
+    },
+    {
+      "id": "5",
+      "name": "Good Times Bad Times",
+      "nameRu": "Сумка Космическая Домбра",
+      "price": 6900,
+      "currency": "KZT",
+      "tagline": "Carry the rhythm",
+      "taglineRu": "Неси ритм",
+      "description": "Canvas crossbody bag with hand-painted dombra (traditional Kazakh instrument) and psychedelic patterns. Adjustable strap.",
+      "descriptionRu": "Холщовая сумка через плечо с расписной домброй и психоделическими узорами. Регулируемый ремень.",
+      "category": "accessories",
+      "images": [
+        "/clothes/goodtimes1.png",
+        "/clothes/goodtimes2.png",
+        "/clothes/goodtimes3.png"
+      ],
+      "colors": ["cream", "mustard"],
+      "sizes": ["One Size"],
+      "materials": "Organic canvas, leather strap",
+      "inStock": true
+    },
+    {
+      "id": "6",
+      "name": "21st Century Schizoid Man",
+      "nameRu": "Повязка Сила Цветов",
+      "price": 2900,
+      "currency": "KZT",
+      "tagline": "Crown your vibes",
+      "taglineRu": "Укрась свои вибрации",
+      "description": "Handmade fabric headband with embroidered flowers and traditional Kazakh patterns. Elastic back for comfort.",
+      "descriptionRu": "Тканевая повязка ручной работы с вышитыми цветами и традиционными казахскими узорами. Эластичная задняя часть.",
+      "category": "accessories",
+      "images": [
+        "/clothes/schizoid1.png",
+        "/clothes/schizoid2.png",
+        "/clothes/schizoid3.png"
+      ],
+      "colors": ["turquoise", "mustard", "burnt-orange"],
+      "sizes": ["One Size"],
+      "materials": "Cotton fabric, elastic",
+      "inStock": true
+    },
+    {
+      "id": "7",
+      "name": "Black Flared Jeans",
+      "nameRu": "Худи Ретро Ритм",
+      "price": 11900,
+      "currency": "KZT",
+      "tagline": "Stay cozy, stay groovy",
+      "taglineRu": "Будь уютным, будь крутым",
+      "description": "Oversized hoodie with vintage wash and screen-printed geometric patterns inspired by Kazakh felt carpets (syrmak).",
+      "descriptionRu": "Оверсайз худи с винтажной стиркой и геометрическими принтами, вдохновленными казахскими войлочными коврами (сырмак).",
+      "category": "tops",
+      "images": [
+        "/clothes/blackflare1.png",
+        "/clothes/blackflare2.png"
+      ],
+      "colors": ["cream", "olive", "deep-brown"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "materials": "80% organic cotton, 20% recycled polyester",
+      "inStock": true
+    },
+    {
+      "id": "8",
+      "name": "Classic Flared",
+      "nameRu": "Юбка Солнечный Взрыв",
+      "price": 7900,
+      "currency": "KZT",
+      "tagline": "Spin into sunshine",
+      "taglineRu": "Кружись в солнечном свете",
+      "description": "Flowing midi skirt with sunburst pleats and hand-dyed ombre effect. Elastic waistband for comfort.",
+      "descriptionRu": "Струящаяся юбка миди с плиссировкой и эффектом омбре ручной окраски. Эластичный пояс для комфорта.",
+      "category": "bottoms",
+      "images": [
+        "/clothes/Flared1.png",
+        "/clothes/Flared2.png"
+      ],
+      "colors": ["mustard", "burnt-orange", "turquoise"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "materials": "100% organic cotton voile",
+      "inStock": false
+    },
+    {
+      "id": "9",
+      "name": "Classic Baggy",
+      "nameRu": "Юбка Солнечный Взрыв",
+      "price": 7900,
+      "currency": "KZT",
+      "tagline": "Spin into sunshine",
+      "taglineRu": "Кружись в солнечном свете",
+      "description": "Flowing midi skirt with sunburst pleats and hand-dyed ombre effect. Elastic waistband for comfort.",
+      "descriptionRu": "Струящаяся юбка миди с плиссировкой и эффектом омбре ручной окраски. Эластичный пояс для комфорта.",
+      "category": "bottoms",
+      "images": [
+        "/clothes/Baggy1.png",
+        "/clothes/Baggy2.png"
+      ],
+      "colors": ["mustard", "burnt-orange", "turquoise"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "materials": "100% organic cotton voile",
+      "inStock": true
+    }
+  ]
+}
