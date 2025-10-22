@@ -26,7 +26,7 @@ export default function AboutPage() {
     <div className="min-h-screen psychedelic-bg">
       <Navbar />
 
-      <section className="relative h-[40vh] sm:h-[50vh] md:h-[60vh] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[70vh] md:h-[80vh] flex items-center justify-center overflow-hidden">
         <Image
           src="/kazakh-artisan-workshop-vintage-textiles.jpg"
           alt="Jaryq workshop"
