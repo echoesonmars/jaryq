@@ -44,7 +44,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="relative h-[70vh] md:h-[80vh] flex items-center justify-center overflow-hidden">
         <Image
-          src="/header_image.svg"
+          src="/header_img.jpg"
           alt="Kazakh steppe with retro filter"
           fill
           className="object-cover"
